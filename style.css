@@ -1,0 +1,62 @@
+body {
+  background: #f8f0c6;
+  font-family: sans-serif;
+}
+
+/*1) give webpage lighter backround color than words */
+
+p {
+  color: darksalmon;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  border-style: solid;
+  border-color:#e3b38a; 
+  background-color:#f9f4d8;
+  color: darksalmon;
+  font-family: cursive;
+}
+
+h2 {
+  color: #e3b38a;
+}
+
+h3 {
+  color: #e3b38a;
+} 2
+h4 {
+  color: #e3b38a;
+}
+
+li {
+  color: #b84646;
+}
+
+img {
+  width: 250px;
+  height: 150px;
+  float: center;
+  border-radius: 10px;
+  border-style:solid;
+  border-color: #e3b38a; 
+}
+
+h6 {
+  color: #d5d5e0;
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+.card {
+
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 10px;
+}
